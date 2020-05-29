@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=FF-VAAPI
+GenericName=Video Converter
+#Icon=/snap/eclipse/48/icon.xpm  # change this line to a icon you like
+Categories=AudioVideo;
+
+
+# CHANGE THIS LINE TO WHERE YOU PUT FF_VAAPI.jar
+Exec=/opt/pizzaMan5000/FF-VAAPI.jar
