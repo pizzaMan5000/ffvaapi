@@ -1,10 +1,10 @@
 # ffvaapi
    This is a small GUI frontend for FFmpeg that I made to make converting videos to X.264 and X.265 easier. This app will ONLY WORK IN LINUX! It uses VAAPI to decode and encode, so you need a GPU that supports VAAPI and the VAAPI software drivers for that GPU. Also you need to install "vainfo", apt-get install vainfo for Debian/Ubuntu. Vainfo can tell you if your VAAPI software is involved and what you GPU can encode and decode using hardware. It's also used by my app so have installed. FFmpeg must be installed too, of course. This should work with INTEL, AMD, and NVIDIA GPUs.
    
-   This app was tested with:
-   -Ubuntu 19.10 and 20.04
-   -Radeon RX570 4gb GPU (mesa drivers)
-   -AMD FX 8320E CPU
+   This app was tested with:<br>
+   -Ubuntu 19.10 and 20.04<br>
+   -Radeon RX570 4gb GPU (mesa drivers)<br>
+   -AMD FX 8320E CPU<br>
    
    
 Installation:
@@ -14,11 +14,11 @@ Installation:
   
 Features:
 
- -converts videos to H.264 or H.265 (HVEC)
- -remove audio
- -set video resolution
- -set bitrate
- -set FPS
+ -converts videos to H.264 or H.265 (HVEC)<br>
+ -remove audio<br>
+ -set video resolution<br>
+ -set bitrate<br>
+ -set FPS<br>
 
-Download JAR file and a little more info on it:
+Download JAR file and a little more info on it:<br>
 http://www.swampsoft.org/java/ffvaapi/ffvaapi.php
