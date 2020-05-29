@@ -19,3 +19,6 @@ Features:
  -set video resolution
  -set bitrate
  -set FPS
+
+Download JAR file and a little more info on it:
+http://www.swampsoft.org/java/ffvaapi/ffvaapi.php
