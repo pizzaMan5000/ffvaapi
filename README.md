@@ -6,7 +6,11 @@
    -Radeon RX570 4gb GPU (mesa drivers)<br>
    -AMD FX 8320E CPU<br>
    
-   
+<p>
+<a href="http://www.swampsoft.org/java/ffvaapi/ffvaapi.php
+">Download JAR file</a>
+<p>
+
 Installation:
 
   Just download the JAR file to a desirable place on your hardrive and run. Make sure you have installed: ffmpeg, vainfo, and GPU drivers with VAAPI. Run "vainfo" in a terminal to check and see what your GPU can encode and decode with. Look for "VAProfileH264****" and "VAProfileHEVC****", then look to the right of them and the ones that say "VAEntrypointEncSlice" mean it can encode that and "VAEntrypointVLD" means it can decode that. Remember HVEC is X.265. I made the app check for encoders and disable H.265 if not found, but there's no check for decoders. It assumes your GPU can do both H.264 and H.265 (HVEC) decoding. This app can only use hardware decoding and encoding. It cannot do software decoding or encoding. There are several apps that can do that with FFmpeg already. I uploaded a desktop file too, so you can have the app on you app menu. Edit FF-VAAPI.desktop file at the end with the installion path if the FF-VAAPI.jar file on your hard drive. When FF-VAAPI.desktop is updated, move it to /usr/share/applications/
