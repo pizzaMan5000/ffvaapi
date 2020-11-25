@@ -25,4 +25,4 @@ Features:
  -set FPS<br>
 
 Download JAR file and a little more info on it:<br>
-http://www.swampsoft.org/java/ffvaapi/ffvaapi.php
+http://www.swampsoft.org/java/ffvaapi/
